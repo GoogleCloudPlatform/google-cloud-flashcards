@@ -1,0 +1,2893 @@
+{
+    "__type__": "Deck",
+    "children": [
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "8e914486-c212-11e9-9e07-8c85905322ef",
+            "deck_config_uuid": "8e91271c-c212-11e9-9a14-8c85905322ef",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [],
+            "name": "CERTS",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "8e914d98-c212-11e9-9990-8c85905322ef",
+            "deck_config_uuid": "8e91271c-c212-11e9-9a14-8c85905322ef",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [],
+            "name": "admin",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "{{c1::<b>Cloud Identity</b>}} is an {{c2::<b>Identity as a Service (IDaaS)</b>}} solution that allows you to {{c3::centrally manage users and groups who can access cloud resources}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "rFfJs:97Rv",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::cloud-identity"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Resource Manager&nbsp;{{c1::Resource Hierarchy}} is made of: {{c2::Organization, Folders, Projects, Service Resources}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "HjpX3N-h1>",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::IAM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Resource Manager&nbsp;<b>Resources</b> in GCP exist in one of the {{c1::four}} layers of the {{c2::Resource hierarchy}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "tyT/R$&ON_",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::RM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Resource Manager&nbsp;<b>Resources</b> can be hosted by {{c1::one}} parent",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "knG#8eRSp|",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::RM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Resource Manager&nbsp;<b>Resource</b> Manager&nbsp;Resources have an {{c1::IAM policy}} attached to them to define {{c2::permissions}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "FzX}kg[*mX",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::RM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Resource Manager&nbsp;<b>Resources</b> inherit the {{c1::IAM policy}} of {{c2::their parent}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "En(jDC*,YX",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::RM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Resource Manager&nbsp;{{c1::Organization}} is a resource type used to represent {{c2::the entire company}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "xs8V9v1nh:",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::RM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Resource Manager&nbsp;{{c1::Organization}} resource is {{c2::unique}} in the resource hierarchy",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "nE5~71fkJF",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::RM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Resource Manager&nbsp;{{c1::Organization}} is at the {{c2::top}} of the {{c3::resource hierarchy}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "NVac|&<_ki",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::RM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "IAM {{c1::Members}} defines {{c2::WHO}} get (what) access to (which) cloud resources",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "C@w~EB!g1E",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::IAM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity Google account is one of the five {{c1::IAM member type}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "C=6B1u_K|;",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::IAM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity Service Account is one of the five {{c1::IAM member type}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "c/`DvE-X!n",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::IAM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity Google group is one of the five {{c1::IAM member type}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "kEy>.ih3TU",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::IAM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "G Suite domain is one of the five {{c1::IAM member type}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "skuTN?[;(@",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::IAM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity domain is one of the five {{c1::IAM member type}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "u2;qX&`9q9",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::IAM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "IAM {{c1::Member types}} are: {{c2::Google account, Service Account, Google Group, G Suite Domain, Cloud Identity Domain}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "eovf)0bKs*",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::IAM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity {{c1::Google accounts and Service accounts}} are the only IAM member types allowing {{c2::users to authenticate (login/password)}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "e[XJ0cY6@v",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::IAM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity {{c1::Google accounts}} are used by {{c2::people to authenticate and access resources}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "F}&3~s*@[K",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::IAM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity {{c1::Google accounts}} can be either {{c2::unmanaged (gmail address) or managed (G Suite User)}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "Jnr@hE#(tX",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::IAM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "IAM {{c1::Service accounts}} are used by {{c2::machines (application, service, scripts) to authenticate and access resources}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "g~~D5Bbk7w",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::IAM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity {{c1::Google groups}} are collection of {{c2::Google accounts or Service accounts}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "il89PXdk!e",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::IAM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity {{c1::Google groups}} are useful to {{c2::grant permissions once to a collection of individual accounts}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "jiGQl*Aml!",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::IAM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity {{c1::Google groups}} make it easy to {{c2::add/remove individual accounts from established permissions}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "G}#-C[V-3g",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::IAM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Resource Manager {{c1::Folder}} is a resource type used to {{c2::organize projects in logical units (e.g department)}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "qUKpA.0L/[",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::RM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Resource Manager Folders can also contain {{c1::other folders}} to {{c2::create multi-level folder hierarchy}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "g/.nu[h#-n",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::RM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Resource Manager&nbsp;{{c1::Project}} is a resource type used to {{c2::host the service resources}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "eT,Twd8^F`",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::RM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Resource Manager&nbsp;{{c1::Projects}} are identified by a {{c2::global unique ID name and ID number}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "r5!|7yp)7j",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::RM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Resource Manager {{c1::Resource}} is a resource type used to {{c2::represent the actual GCP service objects (e.g. VMs, buckets, databases)}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "F9|%rZP4P)",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::RM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "IAM {{c1::Policy}} is a list binding {{c2::members and roles}} to define access to a resource",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "j(w$riv=DJ",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::IAM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Resource Manager&nbsp;<b>Resources</b> apply {{c1::the most permissive}} permission when there is a conflict between several policies",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "p8VPp_KZRW",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::IAM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Resource Manager&nbsp;{{c1::Organization policies}} are objects used to {{c2::apply constraints to resources and prevent undesired behaviors (e.g. allowing public IPs)}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "x}ssF.+~8A",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::RM"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity provides a {{c1::Single Sign On (SSO)}} feature to {{c2::login users accross service}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "iW{@fM8CZ,",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::cloud-identity"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity {{c1::accounts}} provide identity and authentication for users who {{c2::do not need G Suite apps and licenses}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "g]-!QoS}{-",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::cloud-identity"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity {{c1::Google Group for Business}} provides {{c2::enhanced community feature for forums (groups.google.com)}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "kLVHFZq?y{",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::cloud-identity"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity {{c1::<b>2SV&nbsp;Enforcement</b>}}&nbsp;can {{c2::force users to use a second authentication method at login}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "A<CF%w1a;e",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::cloud-identity"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity {{c2::<b>SSO</b>}} supports out of the box {{c1::more than 200 third party cloud applications}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "cr0N![+2<x",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::cloud-identity"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity SSO can support non-catalogued third party apps using {{c1::SAML}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "uF#(}@ri8p",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::cloud-identity"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity {{c1::<b>GCDS</b> (Google Cloud Directory Sync)}} is a solution to {{c2::synchronize Active Directory or LDAP domains with Cloud Identity}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "c!6Swv2pUZ",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::GCDS",
+                        "T::admin::cloud-identity"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity GCDS {{c1::Rules}} are used to {{c2::configure the synchronization option (user, OU, server)}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "h0s~evN#*}",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::GCDS",
+                        "T::admin::cloud-identity"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity GCDS Synchronization direction is {{c1::one-way to prevent any destructive operation on the source LDAP}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "G`nk!?Y|W@",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::GCDS",
+                        "T::admin::cloud-identity"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity GCDS {{c1::Utility}} is the {{c2::software running the synchronization on the source LDAP server}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "u%}avo?8av",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::GCDS",
+                        "T::admin::cloud-identity"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity <b>GCDS Synchronization</b> 1st step is to {{c1::export AD/LDAP data (e.g. users, groups) in a list}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "j>&53w>C[8",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::GCDS",
+                        "T::admin::cloud-identity"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity <b>GCDS Synchronization</b> 2nd step is to {{c1::export Cloud Identity data (e.g. users, groups, contacts) in a list}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "j?>b:}tF!*",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::GCDS",
+                        "T::admin::cloud-identity"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity <b>GCDS Synchronization</b> 3rd step is to {{c1::compare AD/LDAP and Cloud Identity lists}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "fFsW8g%T.^",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::GCDS",
+                        "T::admin::cloud-identity"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity <b>GCDS Synchronization</b> 4th step is to {{c1::synchronize in Cloud Identity differences and send an email report}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "t_+i?fS/~5",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::GCDS",
+                        "T::admin::cloud-identity"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity <b>Interface</b> is accessed on {{c1::admin.google.com}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "k;5_c~sFWg",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::cloud-identity"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity <b>GCDS configuration</b> require setting source LDAP ({{c1::Domain name, oAuth authorization, LDAP server}})",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "b%O?>aInpS",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::GCDS",
+                        "T::admin::cloud-identity"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity <b>GCDS configuration</b> require setting data to sync ({{c1::OU, Users, Groups, Profiles, Schemas, Shared Contacts, Calendar Resources, Licenses}})",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "xIiE#VKGTK",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::GCDS",
+                        "T::admin::cloud-identity"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity <b>GCDS configuration</b> can be set with {{c1::Search Rules}} to filter objects based on strings",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "D7TBx*Y}j`",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::GCDS",
+                        "T::admin::cloud-identity"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity <b>GCDS configuration</b> can be set with Logging ({{c1::$users\\gcds_sync.log, log level}})",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "E@=y|dYYtg",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::GCDS",
+                        "T::admin::cloud-identity"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Identity <b>GCDS</b> {{c1::Sync Simulation}} can show the changes before performing them",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "MwBNWZ!p0D",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::GCDS",
+                        "T::admin::cloud-identity"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "APIs Activation status needt to&nbsp;{{c1::be enabled in a project}} before they can be used",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "sRC):-iq$t",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::API"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "API <b>Dashboard</b> provides {{c1::performance metrics about requests (Traffic, Errors, Latency)}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "svjW2I>%/W",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::API"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "API <b>usage</b> can be analyzed in more details in {{c1::Stackdrive Consumed API resource type}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "v{ZI&%Afsn",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::API"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "IAM <b>Service Account auditing</b> can be done using: {{c1::Console, SDK, Stackdrive Logging}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "ON]YE8),LN",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::IAM",
+                        "T::governance::auditing"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "KMS <b>Hierarchy</b> starts from: {{c1::Project, Location, Key Ring, Key, Key Version}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "W}v2s0qCe",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::KMS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "KMS <b>Projects</b> are recommended to be {{c1::separate from resource projects to enforce principle of least privilege}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "j)(#SfrUa8",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::KMS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "KMS <b>Locations</b> are one of three regional scopes: {{c1::Global, Multi-Region (e.g. US), Region (e.g. us-east4)}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "D9t|7hkxVJ",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::KMS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "KMS <b>Key Rings</b> are the {{c1::top service resources}} in the KMS Hierarchy",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "xHDg?b0M<A",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::KMS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "KMS <b>Key Rings</b> are {{c1::logical grouping of one or several keys to manage them together}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "tA%3W:HA&",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::KMS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "KMS <b>Keys</b> inherit {{c1::permissions from their parent key rings}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "r:($f`:{1R",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::KMS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "KMS <b>Keys</b> are {{c1::logical resources used to encrypt data for a use case (e.g encrypt all data in a bucket)}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "o..&hx:j]R",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::KMS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "KMS <b>Key Versions</b> are {{c1::resources containing the cryptographic material actually encrypting the data}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "ounE*htT@G",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::KMS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "KMS <b>Key Versions</b> are numbered {{c1::sequentially starting from 1}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "uWY1]lj]CC",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::KMS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "KMS <b>Key Versions</b> have state reflecting their status: {{c1::Enabled, Disabled, Scheduled for destruction, Destroyed}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "A;[/oV.eh<",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::KMS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "KMS <b>Decryption process</b> automatically select {{c1::the right Key Version used to encrypt the data}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "g_hWS{h@f,",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::KMS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "KMS <b>Symmetric Keys</b> {{c1::have}} a Primary Key Version",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "b-CY9=QrXf",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::KMS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "KMS <b>Asymmetric Keys</b> {{c1::do not have}} a Primary Key Version",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "MtN|y[c-OS",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::KMS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "KMS <b>Key rings and Keys</b> cannot be {{c1::deleted to avoid name collisions}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "KII1U7SWYH",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::KMS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "KMS (Key Management Service) is a solution used to {{c1::manage cryptographic keys}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "E$fLvR,am-",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::KMS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "KMS <b>Envelope Encryption</b> 1st step is to {{c1::generate a DEK (e.g. \"openssl genrsa\") locally on the machine}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "q[(<0|)M+$",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::KMS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "KMS <b>Envelope Encryption</b> 2nd step is to {{c1::use the DEK to encrypt the data on the machine}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "zry^PHl5(;",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::KMS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "KMS <b>Envelope Encryption</b> 3rd step is to {{c1::generate a KEK with KMS}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "o>1ZAd1`ar",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::KMS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "KMS <b>Envelope Encryption</b> 4th step is to {{c1::encrypt the DEK with the KEK and store the encrypted DEK copy}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "N~Xs5QBpY[",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::KMS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "KMS <b>GMEK</b> (Google Managed Encryption Key) is the {{c1::default scheme where data is encrypted at rest}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "e@T,C.m!S|",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::KMS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "KMS <b>CMEK</b> (Customer Managed Encryption Key) is a method where {{c1::keys are stored in KMS but customers control their management and rotation}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "hm$?>!8_f7",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::KMS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "KMS <b>CMEK</b> is available with {{c1::GCE, GCS, BiqQuery, Dataproc, Cloud Build}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "K7:8,NH7V[",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::KMS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "KMS <b>CSEK</b> (Customer Supplied Encryption Key) is a method where {{c1::private keys are stored by customers}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "qrd9R0m~g3",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::KMS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<b>Encryption at rest</b> is the process of encrypting data when {{c1::it is stored at rest (e.g. objects stored in buckets, disks stored in GCE)}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "fIFJjX$n.d",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::concepts::encryption"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<b>Encryption in transit</b> is the process of encrypting data when {{c1::it is transmitted over the network (e.g. HTTPS)}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "ISX3mDY2zd",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::concepts::encryption"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<b>Envelope Encryption</b> is a cryptographic method where {{c1::the key encrypting the data (DEK) is encrypted by another key (KEK)}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "IWvs#KN~t>",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::concepts::encryption"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<b>DEK</b> (Data Encryption Key) is {{c1::the key managed directly encrypting the data on the storage layer}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "lzmC@x1`ue",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::concepts::encryption"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<b>KEK</b> (Key Encryption Key) is {{c1::the logical key encrypting the DEK}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "uZ;(xMF@p0",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::concepts::encryption"
+                    ]
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "8e915534-c212-11e9-91d8-8c85905322ef",
+            "deck_config_uuid": "8e91271c-c212-11e9-9a14-8c85905322ef",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [],
+            "name": "compute",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "8e915c1e-c212-11e9-b200-8c85905322ef",
+            "deck_config_uuid": "8e91271c-c212-11e9-9a14-8c85905322ef",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [],
+            "name": "storage",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "GCS {{c1::Object Lifecycle Management}} is a feature used to {{c2::change an object state after a period of time}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "iTOD7OHaq@",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::storage::GCS"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Bigquery {{c1::table expiration}} can be set to {{c2::delete tables a number of days after its creation}}&nbsp;",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "Np3LD(y_CT",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::storage::BQ"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "BigTable {{c1::column families}} can be set with an {{c2::expiration date to delete old items}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "mRl&^i@r{g",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::storage::BT"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "The main components of BigQuery are {{c1::Projects, data are hosted in GCP projects}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "gT^wup1t,>",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA",
+                        "T::storage::BQ"
+                    ]
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "8e916376-c212-11e9-a8c6-8c85905322ef",
+            "deck_config_uuid": "8e91271c-c212-11e9-9a14-8c85905322ef",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [],
+            "name": "networking",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "VPC {{c1::auto}} mode network can be converted to a {{c2::custom}} mode network",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "wfNYe2A7$o",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA",
+                        "T::networking::VPC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "VPC {{c1::custom}} mode network {{c3::cannot be}} converted to a {{c2::auto}} mode network",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "C!W_`Q]5>t",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA",
+                        "T::networking::VPC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "VPC <b>Service Limit</b> for number of VMs is {{c1::15,000}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "M^q=2:Z.Gd",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::VPC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "VPC networks {{c1::do not}} support multicast",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "gw=~rcQEVd",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::VPC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "VPC networks {{c1::do not}} support IPv6 for {{c2::internal IPs}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "H?mP#3q48/",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::VPC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "{{c1::Cloud Armor}} is solution used to {{c2::protect network resources against Distributed Denial of Service (DDoS)}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "i5IPu|b.Ko",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::cloud-armor"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Armor {{c1::Security Policy}} defines {{c2::rules to filter traffic based on IP for targets}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "iC^jvK;1Fn",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::cloud-armor"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Armor {{c1::Targets}} are non-CDN HTTP(S) Load Balancers used to apply Security Policies",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "u`AqeE0spK",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::cloud-armor"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Cloud Amor {{c1::SSL Policies}} are used to {{c2::define how an SSL session is negotiated (Minimum TLS version, Compatibility profile)}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "D`?Ue*{C!C",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::cloud-armor"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "VPC {{c1::(Virtual Private Cloud)}} is the cloud equivalent of a data center",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "o2Ktng~9a|",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::VPC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "VPC networks {{c1::do not}} support broadcast",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "yba8,|/zJk",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::VPC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "VPC <b>Sharing</b> is a feature used to {{c1::host resources from several projects in a common Shared VPC Network}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "xCU1mu[UzQ",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::VPC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "VPC <b>Sharing</b> is useful to separate {{c1::the administration workload of the common networking infrastructure and service resources}}",
+                        "common networking: VPC, Subnets, Routes, Firewall, Interconnect<div>service resources: Instances, service configuration</div>"
+                    ],
+                    "flags": 0,
+                    "guid": "K<XRy^C#Xc",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::VPC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "VPC <b>Host Projects</b> are projects {{c1::containing a common Shared VPC Network available to run the service resources}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "we}bF{+xCS",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::VPC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "VPC <b>Service Projects</b> are projects {{c1::attached to the Host Project to use its Shared VPC Network and subnets}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "sA%[,5d$ox",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::VPC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "VPC Sharing IAM Role <b>Organization Admin</b> is needed to {{c1::grant the Compute Shared VPC Admin role}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "CC.=]`[nl-",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::VPC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "VPC Sharing IAM Role <b>Compute Shared VPC Admin</b> is needed to {{c1::create and manage the Shared VPC Network in the Host Project}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "ojS$XexC/w",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::VPC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "VPC Sharing IAM Role <b>Compute Network User</b> (aka Service Project Admin) is needed to {{c1::create service resources in a Shared VPC Network of a Host Project}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "s^!SZrv>L#",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::VPC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "VPC <b>Peering</b> is a feature allowing {{c1::resources to communicate using private IP address space (RFC 1918)}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "cTEaMrp|!@",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::VPC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "VPC <b>Peering</b> {{c1::can}} connect networks hosted in different organizations",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "go+@ozttMe",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::VPC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "VPC <b>Peering</b> traffic {{c1::does not}} transit through the public Internet",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "]p1UHt_px",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::VPC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "VPC Peering traffic {{c1::does not}} incur egress bandwidth charges",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "l&EDM&mSbb",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::VPC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "VPC Peering <b>Service Limit</b> is {{c1::25}} connections per VPC Network",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "Jb+gW1n<g2",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::VPC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "VPC <b>Peering</b> supports traffic for {{c1::GCE, GKE, GAE Flexible}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "o`JjFSE&L7",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::VPC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "VPC Peering network {{c1::cannot}} overlap CIDR ranges",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "tE5,AS3{q~",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::VPC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "VPC <b>Peering</b> {{c1::does not}} support transitive connection",
+                        "If 2 peerings exist between VPC A-B and VPC B-C, VPC A-C will not communicate"
+                    ],
+                    "flags": 0,
+                    "guid": "krM6(Aq:R>",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::VPC"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Load Balancing type <b>HTTP(S)</b> has {{c1::1 use case: External and HTTP/S traffic}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "hg}f9@3!.j",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::LB"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Load Balancing type <b>SSL Proxy</b> has {{c1::1 use case: External, TCP traffic needing SSL offload}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "td,SB.Y@Ah",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::LB"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Load Balancing type <b>TCP Proxy</b> has {{c1::2 use cases:<div>External, TCP, non-SSL offload, needing Global or IPv6 AND&nbsp;</div><div>External, TCP, non-SSL offload, non global-IPv6 not need to preserve Client IPs}}</div>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "eaZoI-_7z+",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::LB"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Load Balancing type <b>Network TCP/UDP</b> has {{c1::2 use cases:<div>External UDP AND</div><div>External, TCP, non-SSL offload, non global-IPv6 needing to preserve Client IPs}}</div>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "M;!HYb%F,9",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::LB"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Load Balancing type <b>Internal TCP/UDP</b> has {{c1::1 use case: Internal, TCP/UDP traffic}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "i5#=(fH[-J",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::LB"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Load Balancing type <b>Internal HTTP(S)</b> has {{c1::1 use case: Internal, HTTP/S traffic}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "G>owF7iCVQ",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::LB"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Load Balancing <b>Backend</b> is the resource {{c1::representing the internal resources the LB will distribute traffic (GCE Instance Groups, GCS Bucket)}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "pKcPt,OXfi",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::LB"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Load Balancing <b>Health check</b> is {{c1::a test (TCP/HTTP(S)/SSL) the LB will perform on the backend resources to drain/recreate faulty resources}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "m[x`Nuf/V&",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::LB"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Load Balancing <b>Host and Path Rules</b> determine {{c1::where the traffic will be distributed (e.g. service /user or /cart)}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "pPpOi$oZ]q",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::LB"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Load Balancing <b>Frontend</b> is the {{c1::configuration of the public-facing part (Protocol HTTP/S, Elastic IP)}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "j2<pdd0DiR",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::LB"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Load Balancing <b>SSL Proxy</b> can be configured with up to {{c1::15 SSL certificates}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "Oe*NKos0]j",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::LB"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Load Balancing <b>Logs</b> for HTTP request are recorded {{c1::in Stackdriver Logging in the Resource Type Cloud HTTP Load Balancer}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "l.<0(7-kN>",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::LB"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Load Balancing <b>Monitoring</b> metrics are {{c1::recorded and displayed in Stackdriver}}<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "HPAhSu~d6=",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::networking::LB"
+                    ]
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "8e918a0c-c212-11e9-9fce-8c85905322ef",
+            "deck_config_uuid": "8e91271c-c212-11e9-9a14-8c85905322ef",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [],
+            "name": "tools",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Stackdriver Logging <b>Log Streams</b> are either {{c1::Admin Activity, Data Access, System Event}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "E8cE,*!dJ",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::tools::SDL"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Stackdriver Logging <b>Admin Activity log</b> records {{c1::API calls and actions modifying configuration or resource metadata}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "rN,imB~3!K",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::API",
+                        "T::tools::SDL"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Stackdriver Logging <b>Admin Activity log</b> is {{c1::enabled}} by default",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "zGfEFTCrEZ",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::tools::SDL"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Stackdriver Logging <b>Admin Activity log</b> retention period is {{c1::400 days}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "fN|&zf.9y8",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::tools::SDL"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Stackdriver Logging <b>Data Access log</b> records {{c1::API calls and actions accessing and modifying resource data}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "I~(XceUxGM",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::API",
+                        "T::tools::SDL"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Stackdriver Logging <b>Data Access log</b> is {{c1::disabled}} by default",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "vy|D/o6KbD",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::tools::SDL"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Stackdriver Logging&nbsp;<b>Data Access log</b>&nbsp;retention period is {{c1::30 days}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "eVlt&xN4+5",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::tools::SDL"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Stackdriver Logging&nbsp;<b>System Event log</b>&nbsp;retention period is {{c1::400 days}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "Rh8K+j;VLu",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::tools::SDL"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver]&nbsp;<b>GCP Service</b> {{c1::Stackdriver Monitoring}} is used to {{c2::track health metrics for resources}}<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "c&~R&>vT8]",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver]&nbsp;<b>GCP Service&nbsp;</b>{{c1::Stackdriver Logging}}&nbsp;is used to {{c2::store and analyze logs collected from resources}}<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "nmm7#BP*^#",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver]&nbsp;<b>GCP Service</b> {{c1::Stackdriver Trace}} is used to {{c2::find performance issues in App Engine}}<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "f00%s;AHx6",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver]&nbsp;<b>GCP Service&nbsp;</b>{{c1::Stackdriver Debugger}}&nbsp;is used to {{c2::review and investigate code deployed}}<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "tEEK(9^(F%",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver]&nbsp;<b>Stackdriver features</b>&nbsp;{{c1::does}}&nbsp;support resource monitoring in {{c2::GCP, AWS, On-Premises}} environments<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "g}h?v)p,*G",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver Monitoring] {{c1::<b>Agent</b>}}&nbsp;is a <b>component</b> running on {{c2::monitored machines}} and used to {{c3::collect more system or application information}}<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "J+_<Iapb,(",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver]&nbsp;<b>Stackdriver features</b> {{c1::does}} support out of the box third party solutions (Apache, MySQL, RabbitMQ, etc..)<br>",
+                        "does / does not"
+                    ],
+                    "flags": 0,
+                    "guid": "EOu_a8MnkN",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver]&nbsp;<b>Logs</b> are grouped and viewed by {{c1::projects}}<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "b&DG65%ag6",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver] <b>Service tiers</b> were {{c1::used for pricing but no longer are}}<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "O)#t?r9X69",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver] <b>Groups</b> are used to {{c1::bundle together resources by labels or other categories}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "uP(sUQ`ikc",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver Logging] <b>GCP Service</b> Stackdriver Logging is used to {{c1::collect, store and visualize information found on system and application logs}}<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "xK1f5+EKhs",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver Logging] <b>Retention</b> is {{c1::400}} days for admin activity<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "CLTEPt_Y$1",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver Logging]&nbsp;<b>Retention</b>&nbsp;is {{c1::30}} days for any other log",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "y.(-x{?Suz",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver Logging] <b>Log Admin activity</b> collects information about {{c1::resource creation and management}}<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "E$84H@MfEi",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver Logging] <b>Log Admin activity</b> status is {{c1::enabled}} by default",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "d}WpC)UFkM",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver Logging] <b>Log Data access</b> collects data about {{c1::user activity}}<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "MFiAZ/Cu6C",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver Logging] <b>Log export</b> requires the following steps: {{c1::creating a project, filter to select the entries to export, destination and a sink}}<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "x?RnsVr2/F",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver Logging] <b>Log export</b> can send data to {{c1::Cloud Storage}} for {{c2::long-term storage}}<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "BM%um&$T|B",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver Logging] <b>Log export</b> can send data to {{c1::BigQuery}} for {{c2::analysis}}<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "zK!V0$vL*<",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver Logging] <b>Log export</b> can send data to {{c1::Pub/Sub}} for {{c2::integration with other systems}}<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "A6>w8cKK@A",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "<div>[Stackdriver Error Reporting] <b>GCP Service</b> Stackdriver Error Reporting is used to {{c1::collect and troubleshoot application errors}}</div>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "Imv_Ie@o3[",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver Error Reporting] <b>Stackdriver Error</b> Reporting&nbsp;integrates with {{c1::App Engine, Compute Engine, Cloud Functions, AWS EC2}}<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "KP|[v=~[0h",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver Trace] <b>GCP Service</b> Stackdriver Trace is used to {{c1::find latency issues, application slowness and bottlenecks}}<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "I~7;u?A5`(",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver Trace] Stackdriver Trace <b>status</b> is {{c1::enabled}}&nbsp;by default<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "y9}*4zm+QB",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver Trace] <b>Reports</b> can be generated when {{c1::there are at least 100 traces available}}<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "c77=sj%Scu",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver Debug] <b>GCP Service</b> Stackdriver Debug is used to {{c1::debug application code deployed in real-time}}<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "KGsk1G=Va2",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Stackdriver Debug] <b>Stackdriver Debug</b> integrates with {{c1::App Engine and GKE}}<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "exl|r6hRh]",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA::6::1",
+                        "T::tools::Stackdriver"
+                    ]
+                }
+            ]
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "8e919134-c212-11e9-a7b8-8c85905322ef",
+            "deck_config_uuid": "8e91271c-c212-11e9-9a14-8c85905322ef",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [],
+            "name": "bigdata",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "8e91980a-c212-11e9-ab86-8c85905322ef",
+            "deck_config_uuid": "8e91271c-c212-11e9-9a14-8c85905322ef",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [],
+            "name": "ai",
+            "notes": []
+        },
+        {
+            "__type__": "Deck",
+            "children": [],
+            "crowdanki_uuid": "677fe536-c623-11e9-8a9c-8c85905322ef",
+            "deck_config_uuid": "8e91271c-c212-11e9-9a14-8c85905322ef",
+            "desc": "",
+            "dyn": 0,
+            "extendNew": 10,
+            "extendRev": 50,
+            "media_files": [],
+            "name": "GENERAL",
+            "notes": [
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "{{c1::<b>Principle of least privilege</b>}} mandates to {{c2::grant a user/resource just enough permission to perform its work}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "F1GlvkXM61",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::concepts::principles"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Resource Manager&nbsp;{{c1::<b>Super Administrator</b>}} is the {{c2::email address used to create the organization}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "t<QyR]Pij~",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::RM::super-admin"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Resource Manager&nbsp;{{c1::<b>Super Administrator</b>}} has permissions on {{c2::every resource in the organization}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "F8!?ho`f66",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::RM::super-admin"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Resource Manager {{c2::<b>Super Administrator</b>}} should not be used for {{c1::day to day activity because of its danger}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "HpwW{yII5`",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::RM::super-admin"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Resource Manager&nbsp;<b>Super Administrator</b>&nbsp;should be protected by {{c1::Multi Factor Authentication (MFA) with physical token}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "EYJ/:x.N++",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::RM::super-admin"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Resource Manager <b>Super Administrator</b> logins should be {{c1::monitored with Stackdriver alerts}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "i?h>$c|MIG",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::RM::super-admin"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Resource Manager {{c1::<b>Organization Admin Group</b>}} should be created to {{c2::assign organization permissions for day to day management}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "eF=iImB/jj",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::governance::bestpractices"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "Resource Manager <b>Organization Admin Group</b> should not contain {{c1::super administrator account}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "m[mIyPQCQZ",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::RM::super-admin"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "{{c1::<b>ISO 27017</b>}} is an International Standard defining {{c2::cloud security practices}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "Jf124J,I1;",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::governance::standards"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "{{c1::<b>BoringSSL</b>}} is a Google maintained fork of {{c2::OpenSSL to provide encryption in transit}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "uS6mAeW.8H",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::concepts::encryption",
+                        "T::governance::standards"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "{{c1::<b>BoringCrypto</b>}} was validated {{c2::FIPS 140-2}} for {{c3::encryption-in-transit and encryption-at-rest}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "BS^&S;MF/&",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::concepts::encryption",
+                        "T::governance::standards"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "IAM <b>Compromised Credentials</b>&nbsp;remediation steps are to {{c1::create a new credential, deploy it to services, revoke the old credential}}",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "CdGRIW$#P+",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::IAM",
+                        "T::governance::vulnerability"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "IAM <b>Compromised Credentials</b> usage should be {{c1::monitored in Console Activity Log for anomalies}}<br>",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "Cdk/Q;=r^B",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::admin::IAM",
+                        "T::governance::vulnerability"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "{{c1::<b>ISO 27001</b>}} is an&nbsp;International Standard&nbsp;defining {{c2::organizational computer security practices}}&nbsp;",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "x[,rY5%m6_",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCSE",
+                        "T::governance::standards"
+                    ]
+                },
+                {
+                    "__type__": "Note",
+                    "data": "",
+                    "fields": [
+                        "[Storage] <b>GCP Service</b> {{c1::BigTable}} is used to host NoSQL databases used for analytics",
+                        ""
+                    ],
+                    "flags": 0,
+                    "guid": "i89Q+49u_.",
+                    "note_model_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+                    "tags": [
+                        "E::PCA",
+                        "T::storage::BT"
+                    ]
+                }
+            ]
+        }
+    ],
+    "crowdanki_uuid": "8e889962-c212-11e9-9be3-8c85905322ef",
+    "deck_config_uuid": "8e91271c-c212-11e9-9a14-8c85905322ef",
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig",
+            "autoplay": true,
+            "crowdanki_uuid": "8e91271c-c212-11e9-9a14-8c85905322ef",
+            "dyn": false,
+            "lapse": {
+                "delays": [
+                    10
+                ],
+                "leechAction": 0,
+                "leechFails": 8,
+                "minInt": 1,
+                "mult": 0.0
+            },
+            "maxTaken": 60,
+            "name": "Default",
+            "new": {
+                "bury": false,
+                "delays": [
+                    1,
+                    10
+                ],
+                "initialFactor": 2500,
+                "ints": [
+                    1,
+                    4,
+                    7
+                ],
+                "order": 1,
+                "perDay": 1000,
+                "separate": true
+            },
+            "replayq": true,
+            "rev": {
+                "bury": false,
+                "ease4": 1.3,
+                "fuzz": 0.05,
+                "hardFactor": 1.2,
+                "ivlFct": 1.0,
+                "maxIvl": 36500,
+                "minSpace": 1,
+                "perDay": 20
+            },
+            "timer": 0
+        }
+    ],
+    "desc": "Deck to to study and review all services in Google Cloud.\n\nThe deck currently prepare candidates for the following certification exams:\n\n - Professional Cloud Security Engineer (PCSE)",
+    "dyn": 0,
+    "extendNew": 10,
+    "extendRev": 50,
+    "media_files": [],
+    "mid": "1566155039929",
+    "name": "google-cloud",
+    "note_models": [
+        {
+            "__type__": "NoteModel",
+            "crowdanki_uuid": "8e91767a-c212-11e9-9abf-8c85905322ef",
+            "css": "html { overflow: scroll; overflow-x: hidden; }\n/* CONTAINER FOR YOUR CARDS */\n#kard {\n    padding: 0px 0px;\n    max-width: 700px; /* CHANGE CARD SIZE HERE */\n    margin: 0 auto; /* CENTERS THE CARD IN THE MIDDLE OF THE WINDOW */\n    word-wrap: break-word; /* BREAKS UP LONG WORKS */\n}\n \n/* APPLIES TO THE WHOLE CARD */\n.card {\n    font-family: Menlo, baskerville, sans;\n    font-size: 18px; /* FONT SIZE */\n    text-align: center; /* ALIGN TEXT */\n    color: #D7DEE9; /* FONT COLOR */\n    line-height: 1.6em;\n    background-color: #333B45; /* BACKGROUND COLOR */\n}\n/* STYLE FOR CLOZE DELETIONS */\n.cloze, .cloze b, .cloze u, .cloze i { font-weight: bold; color: MediumSeaGreen !important;}\n \n/* STYLE FOR EXTRA PORTION ON BACK OF CARD */\n#extra, #extra i { font-size: 15px; color:#D7DEE9; font-style: italic; }\n \n/* STYLE TAGS TO APPEAR WHEN HOVERING OVER TOP OF CARD */\n.tags { \n    color: #A6ABB9;\n    opacity: 0;\n    font-size: 10px; \n    width: 100%;\n    text-align: center;\n    text-transform: uppercase; \n    position: fixed; \n    padding: 0; \n    top:0;  \n    right: 0;}\n.tags:hover { opacity: 1; position: fixed;}\n \n/* IMAGE STYLE */\nimg { display: block; max-width: 100%; max-height: none; margin-left: auto; margin: 10px auto 10px auto;}\ntr {font-size: 12px; }\n \n/* COLOR ACCENTS FOR BOLD-ITALICS-UNDERLINE */\nb { color: #C695C6 !important; } /* BOLD STYLE */\nu { text-decoration: none; color: #5EB3B3;} /* UNDERLINE STYLE */\ni  { color: IndianRed; } /* ITALICS STYLE */\na { color: LightGray !important; text-decoration: none; font-size: 10px; font-style: normal; } /* LINK STYLE */\n \n/* ADJUSTMENT FOR MOBILE DEVICES */\n.mobile .card { color: #D7DEE9; background-color: #333B45; } \n.mobile .tags:hover { opacity: 1; position: relative;}",
+            "flds": [
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Text",
+                    "ord": 0,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                },
+                {
+                    "font": "Arial",
+                    "media": [],
+                    "name": "Extra",
+                    "ord": 1,
+                    "rtl": false,
+                    "size": 20,
+                    "sticky": false
+                }
+            ],
+            "latexPost": "\\end{document}",
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n",
+            "latexsvg": false,
+            "name": "Cloze",
+            "sortf": 0,
+            "tags": [
+                "E::PCA",
+                "T::storage::BQ"
+            ],
+            "tmpls": [
+                {
+                    "afmt": "<div id=\"kard\">\n    <div class=\"tags\" id='tags'>{{Tags}}</div>\n    {{cloze:Text}}\n    <div>&nbsp;</div>\n</div>",
+                    "bafmt": "",
+                    "bqfmt": "",
+                    "did": null,
+                    "name": "Cloze",
+                    "ord": 0,
+                    "qfmt": "<div id=\"kard\">\n    <div class=\"tags\">{{Tags}}</div>\n    {{cloze:Text}}\n    <div id='extra'>{{Extra}}</div>\n</div>"
+                }
+            ],
+            "type": 1,
+            "vers": []
+        }
+    ],
+    "notes": []
+}
